@@ -38,7 +38,7 @@ body {
   flex-direction: column;
 }
 
-.answer{
+.answer {
   margin-bottom: 5px;
 }
 
@@ -48,7 +48,6 @@ body {
 
 .answer__input {
   width: 100%;
-  font-size: 20px
 }
 
 .button {
@@ -56,16 +55,29 @@ body {
   text-align: center;
 }
 
-.submit__button{
+.submit__button {
   height: 28px;
   font-size: 16px;
   width: 100px;
 }
 
-.disable{
+.disable {
   display: none;
 }
 
-.enable{
+.enable {
   display: block;
+}
+
+@media(max-width: 1000px) {
+  .main {
+    width: 90%;
+    font-size: 25px;
+  }
+
+  .submit__button {
+    font-size: 25px;
+    width: 60%;
+    height: 40px;
+  }
 }
