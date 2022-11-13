@@ -29,7 +29,6 @@ function start() {
 function task() {
   number = (parseInt(Math.random() * 50)) ** 2;
   answer = Math.sqrt(number);
-  console.log(answer);
   numberSpan.innerHTML = `Вычислите: √${number}`;
 }
 
