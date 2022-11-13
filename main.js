@@ -31,7 +31,6 @@ function check() {
   }
   else {
     alert('Попробуй еще раз');
-    answerInput.value = '';
   }
 }
 
